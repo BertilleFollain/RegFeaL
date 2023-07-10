@@ -1,7 +1,5 @@
 # RegFeaL, Companion code to 
-##*Follain, B., Simsekli, U., and Bach, F. (2023), Nonparametric Linear Feature Learning in Regression Through Regularisation*
-
-Code: change citation of paper name in code, add the code to git (description, make it public)
+## *Follain, B., Simsekli, U., and Bach, F. (2023), Nonparametric Linear Feature Learning in Regression Through Regularisation*
 
 ## What is this project for?
 This is the companion code to Follain, B., Simsekli, U., and Bach, F. (2023), Nonparametric Linear Feature Learning in Regression Through Regularisation.
