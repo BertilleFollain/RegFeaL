@@ -23,7 +23,7 @@ which is not necessary to run **RegFeaL**.
 ## Regressors
 This folder calls for more detailed explanations. 'PyMave' corresponds to the Regressor described in 
 'Yingcun Xia and others, An Adaptive Estimation of Dimension Reduction Space, Journal of the Royal Statistical Society Series B: Statistical Methodology, Volume 64, Issue 3, August 2002, Pages 363–410, https://doi.org/10.1111/1467-9868.03411'
-but usable in Python (the original package is in the language R, which you will need if you want to use **PyMave**).
+but usable in Python (the original package is in the language R, which you will need if you want to use **PyMave** as **PyMave** simply calls the R package from Python).
 'BasicRegFeaL' corresponds to the regressor described in
 'Follain, B., Simsekli, U., and Bach, F. (2023), Nonparametric Linear Feature Learning in Regression Through Regularisation', 
 while 'RegFeaL' (which we recommend using) is composed of the previously described regressor, which allows us to
