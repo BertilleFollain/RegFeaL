@@ -13,9 +13,9 @@ activate()
 
 class PyMave(RegressorMixin, BaseEstimator):
     """
-    PyMave implements the MAVE regressor from  Xia, Y., Tong, H., Li, W.K. and Zhu, L.-X. (2002), An adaptive estimation
+    PyMave imports the MAVE regressor (Xia, Y., Tong, H., Li, W.K. and Zhu, L.-X. (2002), An adaptive estimation
     of dimension reduction space. Journal of the Royal Statistical Society: Series B (Statistical Methodology),
-    64: 363-410. https://doi.org/10.1111/1467-9868.03411and and integrates it into the Scikit-learn framework.
+    64: 363-410. https://doi.org/10.1111/1467-9868.03411) which is available in R and allows its use in Python, integrated into the Scikit-learn framework.
     """
 
     def __init__(self):
@@ -38,7 +38,7 @@ class PyMave(RegressorMixin, BaseEstimator):
         self.dim_ = np.argmin(np.array(Mave.mave_dim(dr=self.dr_mave_)[-3])) + 1
         self.p_hat_ = np.array(Mave.coef_mave(self.dr_mave_, dim=self.dim_))
 
-        # fit MARS model on top, training on projected data
+        # fit MARS model on top, training on projected data with self selected dimension
         with warnings.catch_warnings():
             warnings.simplefilter('ignore')
             self.mars_ = pyearth.Earth(max_degree=self.dim_)
