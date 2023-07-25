@@ -15,7 +15,8 @@ class PyMave(RegressorMixin, BaseEstimator):
     """
     PyMave imports the MAVE regressor (Xia, Y., Tong, H., Li, W.K. and Zhu, L.-X. (2002), An adaptive estimation
     of dimension reduction space. Journal of the Royal Statistical Society: Series B (Statistical Methodology),
-    64: 363-410. https://doi.org/10.1111/1467-9868.03411) which is available in R and allows its use in Python, integrated into the Scikit-learn framework.
+    64: 363-410. https://doi.org/10.1111/1467-9868.03411) which is available in R (https://cran.r-project.org/web/packages/MAVE/index.html) and allows its use in Python, 
+    integrated into the Scikit-learn framework.
     """
 
     def __init__(self):
