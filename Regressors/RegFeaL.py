@@ -11,7 +11,7 @@ import warnings
 class RegFeaL(RegressorMixin, BaseEstimator):
     """
     RegFeal implements the regressor proposed in Follain, B., Simsekli, U., and Bach, F. (2023), Nonparametric Linear Feature Learning
-    in Regression Through Regularisation and integrates it into the Scikit-learn framework.
+    in Regression Through Regularisation (https://arxiv.org/abs/2307.12754) and integrates it into the Scikit-learn framework.
     """
 
     def __init__(self, rho=0.5, mu=0.1, m=500, feature=False, epsilon=1e-8, r=0.33, n_iter=5, lamb=None):
