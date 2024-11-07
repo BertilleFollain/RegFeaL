@@ -1,8 +1,8 @@
 # RegFeaL, Companion code to 
-## *Follain, B. and Bach, F. (2023), Nonparametric Linear Feature Learning in Regression Through Regularisation (https://arxiv.org/abs/2307.12754)*
+## *Follain, B. and Bach, F. (2024), Nonparametric Linear Feature Learning in Regression Through Regularisation, Electronic Journal of Statistics, 18(2), 4075-4118. (https://https://doi.org/10.1214/24-EJS2301 https://arxiv.org/abs/2307.12754)*
 
 ## What is this project for?
-This is the companion code to Follain, B., Simsekli, U., and Bach, F. (2023), Nonparametric Linear Feature Learning in Regression Through Regularisation (https://arxiv.org/abs/2307.12754).
+This is the companion code to Follain, B. and Bach, F. (2024), Nonparametric Linear Feature Learning in Regression Through Regularisation Electronic Journal of Statistics, 18(2), 4075-4118. (https://https://doi.org/10.1214/24-EJS2301 https://arxiv.org/abs/2307.12754).
 It contains the estimator **RegFeaL** introduced in the previously cited article, the code to run the experiments from the article
 and the results of said experiments. **RegFeaL** is a method for non-parametric regression with linear feature learning, 
 which consists in empirical risk minimisation regularised by derivatives. See the article for more details. The method is available through the class RegFeaL in
